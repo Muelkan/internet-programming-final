@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.yontraf {
+    position: relative;
+    left: 13cm;
+    width: 30cm;
+    background-color: rgba(0, 0, 0, 0.43);
+    height: fit-content;
+    top: -5cm;
+    border-radius: 1cm;
+    border-style: solid;
+    border-width: 0.01cm;
+  
+    backdrop-filter: blur(5px);
+    overflow: scroll;
+}
+img {
+    position: relative;
+    width: 5cm;
+    height: 5cm;
+}
+.rounded-circle {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-style: solid;
+    border-width: 0.01cm;
+    border-radius: 3cm;
+}
